@@ -5,7 +5,7 @@ nixPkgs = ["jdk17", "maven"]
 cmds = ["mvn clean package -DskipTests"]
 
 [phases.start]
-cmd = "java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/e-commerce-0.0.1-SNAPSHOT.jar"
+cmd = "java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/ecom-proj-0.0.1-SNAPSHOT.jar"
 
 [variables]
 MAVEN_OPTS = "-Xmx1024m -XX:MaxMetaspaceSize=512m"
