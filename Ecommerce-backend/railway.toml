@@ -5,7 +5,7 @@ buildCommand = "mvn clean package -DskipTests"
 [deploy]
 runtime = "V2"
 numReplicas = 1
-startCommand = "java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/ecom-proj-0.0.1-SNAPSHOT.jar"
+startCommand = "java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/e-commerce.jar"
 healthcheckPath = "/actuator/health"
 healthcheckTimeout = 300
 sleepApplication = false
