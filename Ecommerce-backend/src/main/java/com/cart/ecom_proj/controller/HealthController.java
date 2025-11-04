@@ -1,4 +1,4 @@
-package com.lms.controller;
+package com.cart.ecom_proj.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
