@@ -23,7 +23,7 @@ COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 
 # Set environment variables if needed (database URL, etc)
-# ENV SPRING_PROFILES_ACTIVE=prod
+ENV SPRING_PROFILES_ACTIVE=prod
 # ENV SPRING_DATASOURCE_URL=<your-db-url>
 
 ENTRYPOINT ["java","-jar","app.jar"]
