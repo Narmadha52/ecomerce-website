@@ -1,6 +1,6 @@
 [build]
 builder = "DOCKERFILE"
-dockerfilePath = "Dockerfile"
+dockerfilePath = "Ecommerce-Backend/Dockerfile"
 
 [deploy]
 startCommand = "java -Xmx512m -Xms256m -jar app.jar"
